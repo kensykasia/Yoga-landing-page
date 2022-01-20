@@ -215,6 +215,7 @@
 
 .main-content {
     position:relative;
+    margin-top: -50px;
     
 }
 
@@ -242,6 +243,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     margin-left: 10px;
+    margin-top: 0.5rem;
 }
 
 .main-content p {
