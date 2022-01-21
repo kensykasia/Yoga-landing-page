@@ -153,7 +153,7 @@
         padding: 2rem;
         width: 100%;
         display: table;
-        color:cornflowerblue
+        color: #414d59;
     }
 
     #mobile-menu {
@@ -213,26 +213,6 @@
     padding: 0 50px;
 }
 
-.main-content {
-    position:relative;
-    margin-top: -50px;
-    
-}
-
-#floral {
-    position:absolute;
-    top: 170px;
-    height: 50%;
-    left: 470px;
-}
-
-#brush {
-    position:absolute;
-    top: -40px;
-    height: 55%;
-    left: -45px;
-}
-
 .main-content h1 {
     font-size: 3.5rem;
     background-color: #ff8177;
@@ -242,8 +222,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    margin-left: 10px;
-    margin-top: 0.5rem;
+    
 }
 
 .main-content p {
@@ -252,7 +231,6 @@
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.5rem;
-    padding-right: 55px;
 }
 
 .main-btn {
@@ -298,7 +276,6 @@
 
 .main-img-container {
     text-align: center;
-    position: relative;
 }
 
 #main-img {
@@ -306,19 +283,6 @@
     width: 80%;
 }
 
-#dots {
-    position:absolute;
-    top: 15px;
-    height: 20%;
-    left: 480px;
-}
-
-#flower {
-    position:absolute;
-    top: 461px;
-    height: 20%;
-    left: 502px;
-}
 
 /*Mobile Responsive*/
 
@@ -330,13 +294,13 @@
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        height: 90vh;
+        height: 100vh;
     }
 
     .main-content {
         text-align: center;
-        margin-bottom: 4rem;
-    }
+        margin-bottom: 0.5rem;
+    }   
 
     .main-content h1 {
         font-size: 2.5rem;
@@ -351,6 +315,7 @@
         margin-top: 1rem;
         font-size: 1.5rem;
     }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -370,7 +335,11 @@
 
     .main-btn {
         padding: 12px 36px;
-        margin: 2.5rem 0;
+        margin: 4.5rem 0;
+    }
+    #main-img {
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -459,23 +428,39 @@
 @media screen and (max-width: 960px) {
     .services {
         height: 1600px;
-        margin-top: 12rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        
     }
 
     .services h1 {
         font-size: 2rem;
-        margin-top: 12rem;
+        margin-top: 4.5rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
     }
+
+    .services-card h2 {
+        font-size: 1.25rem;
+    }
+
+    .service-card p {
+        font-size: 0.85rem;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
     .services {
         height: 1400px;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
     }
 
     .services h1 {
         font-size: 1.2rem;
-        margin-top: 12rem;
+        margin-top: 4.5rem;
     }
 
     .services-card {
